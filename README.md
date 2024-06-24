@@ -19,10 +19,10 @@ sudo docker run --rm -it -v $PWD:/test/ linkheroes/epidump bash
 
 | LIB  | Version |
 | ------------- | ------------- |
-| SFML  | Latest |
+| Sfml  | Latest |
 | RayLib  | Latest |
-| UUID  | Latest |
-| ASAN  | Latest |
+| Uuid  | Latest |
+| Asan  | Latest |
 
 | Language  | Supported |
 | ------------- | :-------------: |
@@ -32,13 +32,23 @@ sudo docker run --rm -it -v $PWD:/test/ linkheroes/epidump bash
 
 | Package manager  | Supported |
 | ------------- | :-------------: |
-| DNF  | ✅ |
-| PYTHON PIP  | 🚧 |
-| NPM  | 🚧 |
+| dnf  | ✅ |
+| Python pip  | 🚧 |
+| npm  | 🚧 |
 
 | Testers  | Supported |
 | ------------- | :-------------: |
 | Criterion  | ✅ |
 | Pytest  | 🚧 |
+
+| Epitech tools  | Supported |
+| ------------- | :-------------: |
+| Coding style  | 🚧 |
+
+| Shell  | Supported |
+| ------------- | :-------------: |
+| Bash  | ✅ |
+| Zsh  | 🚧 |
+| Oh-my-zsh  | 🚧 |
 
 If you want add new feature on this docker thanks to open an issue [here](https://github.com/Tek-Pheed/EpiDump/issues)

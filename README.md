@@ -42,7 +42,7 @@ sudo docker run --rm -it -v $PWD:/test/ linkheroes/epidump zsh
 | --------------- | :-------: |
 | dnf             |    ✅     |
 
-| Testers   | Supported |
+| Coverage   | Supported |
 | --------- | :-------: |
 | Criterion |    ✅     |
 

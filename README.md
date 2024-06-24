@@ -5,7 +5,7 @@
 **On Apple chips this docker simulated AMD64 architecture !**
 
 ```bash
-sudo docker run --rm -it -v $PWD:/test/ linkheroes/epidump bash
+sudo docker run --rm -it -v $PWD:/test/ linkheroes/epidump zsh
 ```
 
 **This container open directly test folder when begin**
@@ -29,26 +29,33 @@ sudo docker run --rm -it -v $PWD:/test/ linkheroes/epidump bash
 | Python  | ✅ |
 | C  | ✅ |
 | C++  | ✅ |
+| JavaScript  | ✅ |
+| TypeScript  | ✅ |
+| Java  | ✅ |
+
+| Tools  | Supported |
+| ------------- | :-------------: |
+| Make  | ✅ |
+| Git  | ✅ |
+| Curl  | ✅ |
+| Wget  | ✅ |
 
 | Package manager  | Supported |
 | ------------- | :-------------: |
 | dnf  | ✅ |
-| Python pip  | 🚧 |
-| npm  | 🚧 |
+| Python pip  | ✅ |
+| npm  | ✅ |
 
 | Testers  | Supported |
 | ------------- | :-------------: |
 | Criterion  | ✅ |
-| Pytest  | 🚧 |
-
-| Epitech tools  | Supported |
-| ------------- | :-------------: |
-| Coding style  | 🚧 |
+| Pytest  | ✅ |
 
 | Shell  | Supported |
 | ------------- | :-------------: |
 | Bash  | ✅ |
-| Zsh  | 🚧 |
-| Oh-my-zsh  | 🚧 |
+| Tcsh  | ✅ |
+| Zsh  | ✅ |
+| Oh-my-zsh  | ✅ |
 
 If you want add new feature on this docker thanks to open an issue [here](https://github.com/Tek-Pheed/EpiDump/issues)

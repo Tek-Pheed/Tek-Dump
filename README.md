@@ -31,12 +31,13 @@ sudo docker run --rm -it -v $PWD:/test/ linkheroes/epidump zsh
 | C++      |    ✅     |
 | Java     |    ✅     |
 
-| Tools | Supported |
-| ----- | :-------: |
-| Make  |    ✅     |
-| Git   |    ✅     |
-| Curl  |    ✅     |
-| Wget  |    ✅     |
+| Tools  | Supported |
+| ------ | :-------: |
+| Make   |    ✅     |
+| Git    |    ✅     |
+| Curl   |    ✅     |
+| Wget   |    ✅     |
+| Telnet |    ✅     |
 
 | Package manager | Supported |
 | --------------- | :-------: |

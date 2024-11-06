@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:mantic
 LABEL maintainer="Alexandre RICARD <alexandre.ricard@epitech.eu>"
 RUN echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections \
         && apt-get update -y \
